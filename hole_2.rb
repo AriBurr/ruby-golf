@@ -1,3 +1,5 @@
+# Takes a user input the computer randomly chooses and the winner is output to the screen.
+
 def rock_paper_scissors
   puts "[1] Rock [2] Paper [3] Scissors:"
   select_winner(user = gets.strip.to_i)
